@@ -1,0 +1,59 @@
+[
+{
+  "id": 1,
+  "name": "Gucci",
+  "category": "Fragrance",
+  "price":1000,
+  "imageURL": "https://fimgs.net/images/perfume/o.38345.jpg"
+},
+{
+  "id": 2,
+  "name": "Chanel",
+  "category": "Fragrance",
+  "price":1200,
+  "imageURL": "https://www.onegirl-oneworld.com/wp-content/uploads/2022/01/best-chanel-perfume.jpeg"
+},
+{
+  "id": 3,
+  "name": "Louis Vuitton",
+  "category": "Fragrance",
+  "price":2000,
+  "imageURL": "https://i.pinimg.com/originals/85/2e/1f/852e1fecf42060fe8005e35f771b1820.jpg"
+},
+{
+  "id": 4,
+  "name": "Paradox",
+  "category": "Fragrance",
+  "price":100,
+  "imageURL": "https://fragrancehouse.co.uk/wp-content/uploads/2022/08/Prada-Paradoxe-Eau-de-Parfum-Ad-6.jpg"
+},
+{
+  "id": 5,
+  "name": "Burberry",
+  "category": "Fragrance",
+  "price":1100,
+  "imageURL": "https://i5.walmartimages.com/asr/0a08a41a-9f4a-47dc-87b5-5d11bf14a631_1.c481046f0abd88eb824964d71fc7d2f9.jpeg"
+},
+{
+  "id": 6,
+  "name": "Lancome",
+  "category": "Fragrance",
+  "price":1990,
+  "imageURL": "https://perfumesociety.org/wp-content/uploads/2014/05/LVEB_EDT_high-res1.jpg"
+},
+{
+  "id": 7,
+  "name": "Lanvin",
+  "category": "Fragrance",
+  "price":10000,
+  "imageURL": "https://imgcdn.stablediffusionweb.com/2024/4/16/f37db8ca-66db-4c5e-b10a-f6a7f4fa4b0c.jpg"
+},
+{
+  "id": 8,
+  "name": "Poison",
+  "category": "Fragrance",
+  "price":50000,
+  "imageURL": "https://fimgs.net/images/perfume/o.26207.jpg"
+}
+
+]

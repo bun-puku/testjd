@@ -3,12 +3,13 @@ import products from '../data/products.json'
 import ProductCard from '../components/ProductCard'
 
 
-export default function Home(){
+export default function Fragrance(){
+const list = products.filter(p => p.category === 'Fragrance')
 return (
 <div>
-<h1>Featured Products</h1>
+<h1>Fragrance</h1>
 <section className="products-grid">
-{products.slice(0,8).map(p => <ProductCard key={p.id} product={p} />)}
+{list.map(p => <ProductCard key={p.id} product={p} />)}
 </section>
 </div>
 )
