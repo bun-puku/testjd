@@ -6,7 +6,7 @@ import ProductCard from '../components/ProductCard'
 export default function Fragrance(){
 const list = products.filter(p => p.category === 'Fragrance')
 return (
-<div>
+<div style={{ width: "100%" }}>
 <h1>Fragrance</h1>
 <section className="products-grid">
 {list.map(p => <ProductCard key={p.id} product={p} />)}

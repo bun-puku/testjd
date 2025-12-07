@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom"
 
 export default function Footer(){
 return (
@@ -10,9 +10,9 @@ return (
 <p>Premium fragrances & beauty products</p>
 </div>
 <div>
-<div><a href="#">About Us</a></div>
-<div><a href="#">Contact</a></div>
-<div><a href="#">Privacy Policy</a></div>
+<div><Link to="/about">About Us</Link></div>
+<div><Link to="/contact">Contact</Link></div>
+<div><Link to="/privacy">Privacy Policy</Link></div>
 </div>
 <div>
 <div>© {new Date().getFullYear()} PerfumeCo</div>

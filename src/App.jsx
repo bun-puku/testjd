@@ -8,6 +8,10 @@ import Fragrance from './pages/Fragrance'
 import HairCare from './pages/HairCare'
 import SkinCare from './pages/SkinCare'
 import Makeup from './pages/Makeup'
+import About from "./pages/About"
+import Contact from "./pages/Contact"
+import Privacy from "./pages/Privacy"
+
 
 
 export default function App() {
@@ -21,6 +25,11 @@ return (
 <Route path="/haircare" element={<HairCare />} />
 <Route path="/skincare" element={<SkinCare />} />
 <Route path="/makeup" element={<Makeup />} />
+<Route path="/about" element={<About />} />
+<Route path="/contact" element={<Contact />} />
+<Route path="/privacy" element={<Privacy />} />
+
+
 </Routes>
 </main>
 <Footer />
